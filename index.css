@@ -1,7 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 
+nav {
+    background: transparent;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+    letter-spacing: 2px;
+    
+    display:flex;
+    align-self: flex-start;
+}
+nav a {
+    width: 100%;
+    display: inline-block;
+    padding: 20px 5px;
+    text-decoration: none;
+    flex: 1;  
+}
 
-
+#title {
+    margin: 20px;
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #FFF;
+}
 
 
 .background-Image {
@@ -25,20 +54,28 @@
 }
 
 .menu-button {
-    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #FFF;
-    border: 1px solid #003c8a;
-    background-color: #003c8a;
+    /* border: 1px solid #003c8a;
+    background-color: #003c8a; */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: auto;
     transition: 0.5s;
     border-radius: 10px;
-    margin-bottom: 5px;
+    font-family: 'Acme', sans-serif;
 }
 
 .menu-button:hover {
-    border: 1px solid #0a1b7a;
-    background-color: #0a1b7a;
+    border: 1px solid #AAAAAA;
+    background-color: #777777;
+}
+
+#contents-frame {
+    border: 10px solid #AAAAAA;
+}
+
+.contents {
+
 }
