@@ -14,6 +14,7 @@
 
 .background-Image {
     position: absolute;
+    background-color: teal;
     top: 0;
     left: 0;
     width: 100%;
